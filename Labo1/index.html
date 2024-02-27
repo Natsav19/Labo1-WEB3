@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="bootstrap.css" rel="stylesheet">  
+    <link href="CSS/bootstrap.css" rel="stylesheet">  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
     <title>CEPI BLOG</title>
@@ -79,63 +79,10 @@
         </div>
     </div>
 
- 
+
     <!-- Cases -->
-    <div class="vh-100">
-        <form>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col mb-4 d-flex justify-content-center align-items-center">
-                    <div class="card m-2" style="width: 50%;">
-                        <img src="images/Etu.png" class="card-img-top img-fluid>" alt="Image 1" >
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Parcours d'un étudiant en informatique</h5>
-                            <p class="card-text text-truncate"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam neque perferendis quidem aspernatur, adipisci esse excepturi hic recusandae! Repudiandae id quisquam amet libero labore recusandae corrupti quas incidunt odio?</p>
-                            <a href="#" class="read-more-link text-decoration-none text-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 d-flex justify-content-center align-items-center">
-                    <div class="card m-2" style="width: 50%;">
-                        <img src="images/Data-center.png" class="card-img-top img-fluid" alt="Image 2">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Les coulisses de CEPI</h5>
-                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae unde placeat praesentium? Ipsum nemo labore sed necessitatibus! Distinctio nobis laboriosam optio aliquam, eaque cupiditate, in, ad eius esse sequi nesciunt.</p>
-                            <a href="#" class="read-more-link text-decoration-none text-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 d-flex justify-content-center align-items-center">
-                    <div class="card m-2" style="width: 50%;">
-                        <img src="images/infoinfo.jpg" class="card-img-top img-fluid" alt="Image 3">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Astuce en informatique</h5>
-                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quo commodi laborum ab, sint aut incidunt, illo asperiores consequatur praesentium placeat expedita harum officia beatae iste dignissimos ipsum perferendis culpa?.</p>
-                            <a href="#" class="read-more-link text-decoration-none text-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 d-flex justify-content-center align-items-center">
-                    <div class="card m-2" style="width: 50%;">
-                        <img src="images/github.jpg" class="card-img-top img-fluid" alt="Image 4">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Apprendre a utiliser Github</h5>
-                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, harum. Omnis fugiat voluptatum aperiam, fuga saepe harum aliquid quasi vel laborum suscipit fugit illo ratione nulla quam. Pariatur, repellendus commodi..</p>
-                            <a href="#" class="read-more-link text-decoration-none text-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 d-flex justify-content-center align-items-center">
-                    <div class="card m-2" style="width: 50%;">
-                        <img src="images/VS.jpg" class="card-img-top img-fluid" alt="Image 5">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Gagner en rapidité sur Visual Studio</h5>
-                            <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos assumenda dolore unde adipisci eligendi ratione ipsum, nemo sint, doloremque distinctio cupiditate itaque dolorum eius. Accusantium similique atque nobis aut porro?.</p>
-                            <a href="#" class="read-more-link text-decoration-none text-primary">Lire la suite</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>   
+    <div class="row" id="card">
+ 
     </div>
         <footer class= "vh-10 overflow-auto">
             <div class="row justify-content-center align-items-center">
@@ -150,10 +97,8 @@
         </footer>
 </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+    <script src="Java/index.js"></script>
 </html>
 
-<!-- Note prof
-- Footer expend le long 
-- Image contour 
-- footer cell 
--->
